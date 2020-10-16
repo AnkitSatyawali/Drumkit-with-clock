@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center no-repeat;
   background-size: cover;
 }
 
@@ -84,4 +84,13 @@ kbd {
       transform:rotate(90deg);
       transition: all 0.05;
       transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
+    }
+    @media only screen and (max-width: 600px) {
+      .key {
+        width : 6rem;
+      }
+      .clock {
+        width: 20rem;
+        height:20rem;
+      }
     }
