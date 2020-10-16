@@ -85,6 +85,11 @@ kbd {
       transition: all 0.05;
       transition-timing-function: cubic-bezier(0.1,2.7,0.58,1);
     }
+    .responsive{
+      margin:0px auto;
+      background-image: no repeat;
+      font-family: sans-serif;
+    }
     @media only screen and (max-width: 600px) {
       .key {
         width : 6rem;
